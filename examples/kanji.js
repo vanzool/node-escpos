@@ -32,7 +32,7 @@ const print = async (text) => {
     printer
       .setCharSet()
       .size(0, 0)
-      .testChinese()
+      .setKanjiMode()
       .text("Selamat Pagi")
       .text("早上好", "GB18030")
       .text("おはよう", "EUC-JP")
