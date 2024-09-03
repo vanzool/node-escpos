@@ -30,7 +30,6 @@ const print = async (text) => {
 
   device.open(function (error) {
     printer
-      .setCharSet()
       .size(0, 0)
       .setKanjiMode()
       .text("Selamat Pagi")
